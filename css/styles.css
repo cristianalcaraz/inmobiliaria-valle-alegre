@@ -40,3 +40,15 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+aside.rebajas {
+    justify-content: center;
+    width: 10rem;
+    background-position: center center;
+}
+
+section.reba_jas {
+    background-position: center center;
+    height: 50;
+
+}
