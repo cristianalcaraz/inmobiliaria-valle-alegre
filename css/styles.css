@@ -4,8 +4,6 @@
 
 }
 
-.div.conteiner
-
 /*<--bem-->*/
 .noticia--destacada {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,8 +29,6 @@
 .grid-container {
     display: grid;
     grid-template-areas: 1;
-    2;
-    3;
     grid-template-columns: 200px 100px;
     /*columnas*/
     grid-template-rows: 70px 100px;
