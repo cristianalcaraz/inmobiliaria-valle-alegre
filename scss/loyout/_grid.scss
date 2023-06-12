@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 1;
+    grid-template-columns: 200px 100px;
+    /*columnas*/
+    grid-template-rows: 70px 100px;
+    /*2 filas */
+}
+.div.Exposición {
+    display: grid;
+    grid-row: inherit;
+    background-color: $primario;
+    ;
+}
