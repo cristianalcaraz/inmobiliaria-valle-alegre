@@ -22,8 +22,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <img src="./img/edificio.png" alt="logo" width=50>
+        <nav class="navbar navbar-expand-lg bg-light" style="position: fixed; width: 100%; top: 0; z-index: 1;">
+            <img src="./img/edificio.png" alt="logo" width=50 href="./index.html">
             <div class="container-fluid">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,7 @@
                             <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="./pages/galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -65,16 +65,16 @@
         </nav>
     </header>
     <section>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel-indx" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/organizacion.jpeg" class="d-block w-100" alt="...">
+                    <img src="./img/organizacion.jpeg" width="100%" alt="inmej">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/joven-llaves-acaba-comprar-apartamento-nuevo.jpg" class="d-block w-100" alt="...">
+                    <img src="./img/joven-llaves-acaba-comprar-apartamento-nuevo.jpg" width="100%" alt="departamento">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/cabana.jpg" class="d-block w-100" alt="...">
+                    <img src="./img/cabana.jpg" width="100%" alt="villa langostura">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -93,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <p class="text-paragraph">Cuentanos como es la casa
+                    <p class="cuentanos">Cuentanos como es la casa
                         de
                         tus sueños y tu agente inmobiliario se
                         encargara de ofrecerte las mejores
@@ -101,7 +101,7 @@
                         para ti de forma honesta y profesional , siempre acompañandote durante todo el proceso.</p>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                    <img src="./img/oficina.jpg" class="oficina" alt="oficina" width="100%">
+                    <img src="./img/oficina.jpg" class="oficina" alt="oficina" width="120%">
                 </div>
             </div>
         </div>
@@ -110,10 +110,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-6">
-                    <img src="./img/cabanasarboles.webp" class="oficina" alt="oficina" width="100%">
+                    <img src="./img/cabanasarboles.webp" class="oficina" alt="oficina" width="120%">
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                    <p class="text-paragraph">
+                    <p class="cuentanos">
 
                         Si Inmobiliaria Valle Alegre no dispone de la vivienda en su cartera de propiedades , nos
                         encargamos de encontrarla , gracias a
@@ -165,6 +165,12 @@
             <br>
             <p class="color verde "> Pie de pagina</p>
     </footer>
+    <!--boton flotante-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=5195508107&text=Hola%20Inmobiliaria%20del%20valle%20quisiera%20saber%20sobre%20ventas%20."
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <!--cdn bootstrap js-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
