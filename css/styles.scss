@@ -1,9 +1,9 @@
-@import"../scss/variables/variables";
-@import"../scss/reset/reset";
-@import"../scss/components/footer";
-@import"../scss/loyout/_grid";
-@import"../scss/content/img";
-@import"../scss/components/text";
+@import "../scss/variables/variables";
+@import "../scss/reset/reset";
+@import "../scss/components/footer";
+@import "../scss/loyout/_grid";
+@import "../scss/content/img";
+@import "../scss/components/text";
 
 .transition {
   height: 100px;
@@ -19,7 +19,7 @@
 * {
   padding: 0;
   margin: 0;
-  
+
 
 }
 
@@ -67,7 +67,6 @@
 }
 
 
-
 .social-icons {
   list-style-type: none;
   margin: 0;
@@ -97,12 +96,12 @@
 
 
 .cuentanos {
-  font-size:larger;
+  font-size: larger;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 10%;
-  margin-left: 15%;
-  margin-right: 15%;
-  
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
 }
 
 .text-titulo {
@@ -178,7 +177,6 @@ div.card {
 }
 
 
-
 .grid-B {
   display: grid;
   flex-direction: row;
@@ -197,10 +195,8 @@ div.card {
 }
 
 
-
-
 .grid-B .grid-B-C {
-  border-radius: 1px solid#444;
+  border-radius: 1px solid #444;
   background-color: antiquewhite;
   font-size: 16px;
   align-items: stretch;
@@ -270,23 +266,21 @@ div.card {
     min-width: 120px;
   }
 }
-.carousel-inner{
+
+.carousel-inner {
   width: auto;
-  
+
 }
-
-
 
 .sale-loteo-titulo {
   font-size: medium;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
-  
+
 }
 
-
-.container-reba{
+.container-reba {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -294,15 +288,14 @@ div.card {
   gap: 10px;
   border-radius: 15px #f555;
 }
-.exposición{
+
+.exposición {
   width: 30%;
   height: 60%;
   margin: auto;
   font-size: medium;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   background-color: #25d366;
-  
-  
 }
 
 
@@ -314,69 +307,135 @@ div.card {
   gap: 10px;
   background-color: cadetblue;
   width: 100%;
-  
 }
-.tasa{
+
+.tasa {
   border-radius: 10px;
   background-color: antiquewhite;
-  
-  
 }
 
 .card-sale {
- 
   font-size: medium;
   margin-bottom: 8%;
   margin-left: 5%;
   border-radius: 14px;
- 
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .image {
   height: 170px;
   margin-top: 12%;
- 
+
 }
 
 .viajes-1 {
-  width: 15rem;
-  height: 20rem;
+  width: 100%;
+  height: 15rem;
   margin: auto;
- background-color: antiquewhite;
+  background-color: antiquewhite;
 
 }
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
+
 .float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+  margin-top: 16px;
 }
-.colum-pro{
+
+.colum-pro {
   display: flex;
   flex-direction: center;
 }
-.h4-ex{
+
+.h4-ex {
   text-align: end;
   margin-right: 10%;
   margin-top: 10%;
+}
+
+.navbar-fixed-class {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.margin-top-navbar {
+  margin-top: 4em;
+}
+
+/* Media query para clases solo en mobile */
+
+@media only screen and (max-width: 768px) {
+  .margin-top-navbar {
+    margin-top: 9em;
+  }
+}
+
+.background-darkgray{
+  background-color: darkgrey;
+}
+
+.form-container {
+  background-color: darkgrey;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Style for the section */
+.form-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for the form inputs */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
 }

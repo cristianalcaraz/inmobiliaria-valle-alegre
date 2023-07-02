@@ -7,5 +7,17 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianalcaraz/inmobiliaria-valle-alegre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristianalcaraz/inmobiliaria-valle-alegre/issues"
+  },
+  "homepage": "https://github.com/cristianalcaraz/inmobiliaria-valle-alegre#readme",
   "description": ""
 }
